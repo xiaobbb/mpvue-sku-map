@@ -1,0 +1,58 @@
+.suminfo{
+    padding:0 30rpx;
+}
+.yellow{
+    color:#ff6325;
+    margin-left:20rpx;
+}
+.title{
+    height:100rpx;
+    line-height: 100rpx;
+}
+.charge{
+    flex-wrap: wrap;
+}
+.active{
+    color:#fff;
+    background: #ff6325;
+}
+.chargeitem{
+    border:2rpx solid #d2683f;
+    border-radius:20rpx;
+    width:324rpx;
+    padding:40rpx 0;
+    margin-bottom:20rpx;
+}
+.wxlogo{
+    width:48rpx;
+    height:40rpx;
+    margin-right:30rpx;
+}
+.chosepay{
+    padding:30rpx 0 50rpx 0;
+}
+.botbtn{
+    width:100%;
+    height:97rpx;
+    position: fixed;
+    bottom: 0;
+    left:0;
+}
+.botbtn div{
+    height:100%;
+    line-height: 97rpx;
+}
+.total{
+    width:75%;
+    border-top:1rpx solid #eee;
+    padding-left:30rpx;
+}
+.total span{
+    color:#ff6666;
+    font-size:32rpx;
+}
+.btncharge{
+    width:35%;
+    text-align: center;
+    background: #ff6325;
+}

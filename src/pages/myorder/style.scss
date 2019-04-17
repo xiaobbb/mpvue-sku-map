@@ -1,0 +1,212 @@
+.active {
+    color: #ff6325;
+    border-bottom: 5rpx solid #ff6325
+}
+
+.menuhead {
+    height: 100rpx;
+    padding: 0 30rpx;
+    // position: fixed;
+    // top: 70rpx;
+    // width: 100%;
+    // z-index: 10;
+}
+
+.visit {
+    justify-content: space-around;
+}
+
+.menuhead p {
+    height: 100%;
+    line-height: 100rpx;
+}
+
+.bgindo {
+    background: #f6f6f6;
+}
+
+.shopitem {
+    margin-top: 20rpx;
+}
+
+.number {
+    color: #999;
+}
+
+.tips {
+    color: #ff6666;
+}
+
+.itemtotal {
+    border-bottom: 1rpx solid #f4f4f4;
+    height: 90rpx;
+    line-height: 90rpx;
+    text-align: right;
+    padding: 0 30rpx;
+}
+
+.itemtotal span {
+    font-size: 32rpx;
+}
+
+.menubtn {
+    height: 100rpx;
+    justify-content: flex-end;
+    padding: 0 30rpx;
+}
+
+.menubtn .btn {
+    width: 155rpx;
+    padding: 10rpx 0;
+    text-align: center;
+    border-radius: 30rpx;
+    color: #999;
+    border: 1rpx solid #999;
+    margin-left: 30rpx;
+}
+
+.menubtn .btn.active {
+    color: #ff6666;
+    border-color: #ff6666;
+}
+
+.seritem {
+    border-top: 1rpx solid #f4f4f4;
+    border-bottom: 1rpx solid #f4f4f4;
+    padding: 30rpx 40rpx;
+}
+
+.seritem p {
+    padding: 10rpx;
+}
+
+.menuTypeBox {
+    background: #fff;
+    text-align: center;
+    // position: fixed;
+    // width: 100%;
+    // background: #fff;
+    // z-index: 10;
+    // top: 0;
+}
+
+.menuType {
+    line-height: 66rpx;
+    height: 66rpx;
+    border: 1px solid #ff6325;
+    font-size: 0;
+    margin: 0 auto;
+    border-radius: 200rpx;
+    display: inline-block;
+    box-sizing: content-box;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.menuType .item {
+    display: inline-block;
+    font-size: 32rpx;
+    color: #333;
+    width: 230rpx;
+    vertical-align: top;
+}
+
+.menuType .item.active {
+    background: #ff6325;
+    color: #fff;
+}
+
+.shoplist {
+    height: calc(100vh - 170rpx);
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.backgray {
+    height: 100vh !important;
+}
+
+
+/*弹性布局*/
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clomn {
+    flex-direction: column;
+}
+
+.proinfo {
+    padding: 20rpx 30rpx;
+    justify-content: flex-start;
+}
+
+.flex1 {
+    flex: 1;
+    overflow: hidden;
+}
+
+.orderimg {
+    width: 160rpx;
+    height: 160rpx;
+    vertical-align: middle;
+    margin-right: 30rpx;
+}
+
+.infospec {
+    color: #999;
+    font-size: 24rpx;
+}
+
+.infoprice {
+    font-size: 36rpx;
+    color: #ff6666;
+}
+
+.infoprice p+p {
+    color: #1a1a1a;
+    font-size: 28rpx;
+}
+
+.pad {
+    padding: 20rpx 30rpx;
+}
+
+.specpic {
+    width: 48rpx;
+    height: 44rpx;
+    vertical-align: middle;
+}
+
+.shopnum {
+    margin: 0 20rpx;
+    color: #1a1a1a;
+    font-size: 24rpx;
+    width: 40rpx;
+    text-align: center;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexStar {
+    justify-content: flex-start !important;
+}
+
+.flexEnd {
+    justify-content: flex-end !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+}

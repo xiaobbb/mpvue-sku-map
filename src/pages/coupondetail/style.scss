@@ -1,0 +1,102 @@
+.top{
+    flex-direction: column;
+    align-items: flex-start;
+    padding:0 30rpx;
+    padding-bottom:20rpx;
+    box-sizing: border-box;
+}
+.tophead,.cardbg{
+    width:690rpx;
+    height:400rpx;
+    position:relative;
+}
+.tophead div{
+    position: absolute;
+    top:62rpx;
+    left:62rpx;
+    font-size:48rpx;
+    color:#fff;
+}
+.title{
+    margin:30rpx 0 15rpx 0;
+}
+.title p:first-child{
+    font-size:32rpx;
+    font-weight: bold;
+}
+.title p+p{
+    font-size:24rpx;
+    color:#b2b2b2;
+    margin-top:10rpx;
+}
+.price{
+    color:#f66;
+    font-size:35rpx;
+}
+.price span{
+    font-size:24rpx;
+}
+.itemtitle,.titleinfo{
+    width:312rpx;
+    height:66rpx;
+}
+.titleinfo{
+    position: relative;
+    margin:40rpx auto;
+}
+.titleinfo p{
+    position: absolute;
+    width:312rpx;
+    height:66rpx;
+    top:0rpx;
+    left:0rpx;
+    font-weight: bold;
+    font-size:32rpx;
+    text-align: center;
+    line-height: 66rpx;
+}
+.iteminfo{
+    background: #fff4f0;
+    padding:30rpx;
+    color:#ff6325;
+    font-size: 26rpx;
+}
+.inforight{
+    width:25%;
+}
+.infpborder{
+    border-top:1rpx solid #eee;
+}
+.infoprice{
+    padding:30rpx;
+    text-align: right;
+}
+.infoprice p:first-child{
+    text-decoration: line-through;
+    color:#999;
+}
+.infoprice p+p span{
+    font-size:35rpx;
+}
+.linetop{
+    border-top:1rpx solid #eee;
+    padding-bottom:20rpx;
+}
+.tips{
+    padding:0 30rpx;
+}
+.tips p{
+    margin:8rpx 0;
+    color:#999;
+    font-size: 24rpx;
+}
+.botbtn{
+    width:690rpx;
+    height:70rpx;
+    background: #ff6325;
+    border-radius:10rpx;
+    line-height:70rpx;
+    color:#fff;
+    text-align: center;
+    margin:20rpx auto;
+}

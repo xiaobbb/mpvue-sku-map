@@ -1,0 +1,87 @@
+.shopbg{
+    width:750rpx;
+    height:500rpx;
+}
+.bg-cart{
+    width:750rpx;
+    height:520rpx;
+    overflow: hidden;
+}
+.pic-center{
+    top:300rpx !important;
+}
+.appoint{
+    font-size: 32rpx;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.timeflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15rpx;
+    font-size: 22rpx;
+    color:#999;
+    border-bottom:1rpx solid #eee;
+}
+.active{
+    background:#ff6325;
+    color:#fff;
+    padding:8rpx 25rpx;
+    border-radius: 25rpx;
+}
+.tagflex{
+    display: flex;
+    justify-content: space-between;
+    color:#999;
+    font-size:28rpx;
+}
+.tagflex div{
+    width:50%;
+    box-sizing: border-box;
+    padding:25rpx 0;
+    text-align: center;
+}
+.choosetime{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:30rpx;
+}
+.chooseitem{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width:25%;
+    text-align: center;
+    font-size:28rpx;
+    color:#999;
+}
+.chooseitem div{
+    padding:15rpx;
+}
+.itemshow{
+    border-bottom: 1rpx solid #eee;
+    border-top: 1rpx solid #eee;
+    box-sizing: border-box;
+    color:#1e1e1e
+}
+
+.btn-cancle{
+    border:1px solid #eee;
+    box-sizing: border-box;
+    font-size:32rpx;
+    color:#1e1e1e
+}
+.btn-order{
+    background: #ff6325;
+    color:#fff;
+    font-size:32rpx;
+}
+.bottomstyle{
+    position: fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+}

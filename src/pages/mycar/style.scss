@@ -1,0 +1,196 @@
+.congray {
+    background: #f4f7fc;
+    padding-bottom: 100rpx;
+}
+
+.carlist {
+    width: 100%;
+    background: #f4f7fc;
+    border-top: 1rpx solid #eee;
+}
+
+.cloth {
+    width: 88rpx;
+    height: 88rpx;
+}
+
+.car {
+    width: 44rpx;
+    height: 35rpx;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.menu {
+    width: 32rpx;
+    height: 32rpx;
+    margin-right: 15rpx;
+}
+
+.caritem {
+    background: #fff;
+    margin: 22rpx 0;
+    padding: 30rpx
+}
+
+.coml {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.infostyle {
+    justify-content: flex-start;
+    border-bottom: 1rpx solid #eee;
+    padding-bottom: 40rpx;
+}
+
+.carlogo {
+    width: 88rpx;
+    height: 88rpx;
+    position: relative;
+    margin-right: 32rpx;
+}
+
+.brand {
+    font-size: 30rpx;
+}
+
+.carnum {
+    font-size: 26rpx;
+    color: #999;
+    margin-top: 10rpx;
+}
+
+.choosemenu {
+    padding-top: 30rpx;
+}
+
+.small-checkbox {
+    width: 30rpx;
+    height: 30rpx;
+    margin-right: 30rpx;
+    margin-top: -10rpx;
+}
+
+.small-checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+    width: 30rpx;
+    height: 30rpx;
+}
+
+.choose {
+    height: 60rpx;
+}
+
+.edit {
+    width: 33%;
+}
+
+.edit p {
+    display: flex;
+    align-items: center;
+}
+
+.edit text,
+.chosetitle {
+    color: #999;
+    font-size: 24rpx;
+}
+
+.chosetitle2 {
+    color: #ff6325
+}
+
+.btn {
+    background: #ff6325;
+    width: 100%;
+    height: 89rpx;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.btn div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 89rpx;
+    box-sizing: border-box;
+}
+
+.add {
+    width: 40rpx;
+    height: 40rpx;
+    margin-right: 25rpx;
+}
+
+.btn-save {
+    margin-top: 80rpx;
+}
+
+.sel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1rpx solid #eee;
+    padding: 20rpx;
+}
+
+.sel:first-child {
+    border-top: 1rpx solid #eee;
+}
+
+.line-input {
+    width: 65%;
+}
+
+.zhi {
+    color: #ff6325;
+    font-size: 32rpx;
+    vertical-align: middle;
+}
+
+.sel div:first-child {
+    width: 25%;
+}
+
+.arrow {
+    width: 24rpx;
+    height: 14rpx;
+    margin-left: 15rpx;
+}
+
+.title {
+    display: flex;
+}
+
+.title p {
+    padding: 0 30rpx;
+}
+
+.title p:first-child {
+    padding-left: 0;
+}
+
+.title p+p {
+    border-left: 1rpx solid #eee;
+    border-right: 1rpx solid #eee;
+}
+
+.inn {
+    width: 45%;
+}
+
+.page {
+    height: 100%;
+    background: #f4f7fc;
+}
+
+.addCarContent {
+    height: 100%;
+    background: #fff;
+    // padding-bottom: 100rpx;
+}

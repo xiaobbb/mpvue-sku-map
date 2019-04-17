@@ -1,0 +1,146 @@
+
+.searchpic{
+    width:26rpx;
+    height:26rpx;
+    left:20rpx;
+    margin-top:-13rpx;
+}
+.canclepic{
+    width:29rpx;
+    height:29rpx;
+    right:20rpx;
+    margin-top:-15rpx;
+    z-index:40;
+}
+.topinput{
+    background:rgb(233, 232, 232);
+    border-radius: 30rpx;
+    position: relative;
+    padding:8rpx;
+    margin:0 20rpx;
+}
+.topinput input{
+    font-size:24rpx;
+    padding-left:50rpx;
+}
+.gold{
+    width:42rpx;
+    height:39rpx;
+    vertical-align: middle;
+}
+.bottom{
+    width:22rpx;
+    height:12rpx;
+    margin-left:10rpx;
+}
+.bggray{
+    background:#f4f7fc;
+    height:100%;
+}
+.menu{
+    padding:20rpx;
+    background: #fff;
+}
+.menuitem{
+    display:inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width:95%;
+    padding:8rpx 0;
+    color:#999;
+}
+
+.shoplist{
+    padding:0 20rpx;
+}
+.shopitem{
+    padding:30rpx 25rpx;
+    margin:20rpx 0;
+    border-radius: 10rpx;
+}
+.shopinfo{
+    width:70%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.shopnamelist{
+    font-weight: bold;
+}
+.shopclass{
+    font-size: 24rpx;
+    margin:15rpx 0;
+}
+.numb{
+    color:#999;
+    margin-left:60rpx;
+}
+.grad{
+    margin-left:10rpx;
+    font-size:28rpx;
+}
+.shoplocat{
+    color:#999;
+    width:100%;
+}
+.shoplocat text{
+    display: inline-block
+}
+.bigmask{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 20;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    top:150rpx;
+}
+.itemposit{
+    width:100%;
+    background:#fff;
+    position:fixed;
+    top:150rpx;
+    z-index:60;
+    display:flex;
+    padding:25rpx 40rpx;
+    justify-content:flex-start;
+    border-top:1rpx solid #eee;
+    
+}
+.itemposit div{
+    text-align:center;
+}
+.yellow{
+    color:#ff6325;
+}
+.load{
+    width:100%;
+    background:#fff;
+    position:fixed;
+    top:150rpx;
+    z-index:60;
+}
+.load div{
+    padding:30rpx 60rpx;
+    border-top: 1rpx solid #eee;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dui{
+    color:transparent;
+}
+.active1{
+    color:#01cc1b;
+    font-size:35rpx;
+}
+.active2{
+    color:#ff6325;
+}
+.ttborder{
+    height:35rpx;
+}
+
+
+

@@ -1,0 +1,275 @@
+.img-bottom{
+    width:22rpx;
+    height:12rpx;
+    margin-left: 10rpx;
+}
+.province{
+    vertical-align:middle;
+}
+.container-img,.list-img{
+    width:72rpx;
+    height:72rpx;
+    position:relative;
+}
+.list{
+    width:36rpx;
+    height:28rpx;
+    position:absolute;
+    top:25%;
+    left:25%;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:28rpx;
+    padding:30rpx;
+    height:100rpx;
+    box-sizing: border-box;
+}
+.dingwei{
+    width:750rpx;
+    height:1000rpx;
+}
+.mine-pic{
+    width:80rpx;
+    height:92rpx;
+    position:absolute;
+    top:500rpx;
+    left:294rpx
+}
+.car-small{
+    position:absolute;
+    width:48rpx;
+    height:55rpx;
+    top:385rpx;
+    left:226rpx
+}
+.mask{
+    position: fixed;
+    z-index: 40;
+    left:140rpx;
+    top:200rpx;
+    width:480rpx;
+    height:628rpx;
+}
+.mask-img{
+    width:480rpx;
+    height:628rpx;
+}
+// .vipbtn{
+//     width:328rpx;
+//     height:70rpx;
+//     position:fixed;
+//     top:830rpx;
+//     left:210rpx;
+//     z-index: 40;
+// }
+.close{
+    width:44rpx;
+    height:44rpx;
+    z-index:60;
+    position: absolute;
+    top:0rpx;
+    right:0rpx;
+}
+.text{
+    position: absolute;
+    left:57rpx;
+    justify-content: space-around;
+    z-index:999
+}
+.text p:first-child{
+    font-size: 28rpx;
+    margin-bottom:5rpx;
+}
+.text p:last-child{
+    font-size: 20rpx;
+    color:#ccc;
+}
+.text1{
+    top:290rpx;
+}
+.text2{
+    top:400rpx;
+}
+.text3{
+    top:520rpx;
+}
+//高亮显示
+.active{
+    background:#ff6325;
+    border:1rpx solid #ff6325;
+    padding:10rpx 40rpx;
+    border-radius:50rpx;
+    color:#fff;
+}
+.modal-xiche{
+    width:702rpx;
+    height:248rpx;
+    background:#fff;
+    position:fixed;
+    bottom:36rpx;
+    left:25rpx;
+    z-index:20;
+    border-radius:20rpx;
+}
+.location-self{
+    font-size: 26rpx;
+    color:#ccc;
+    margin-left:10rpx;
+}
+.line{
+    position: relative;
+    border-bottom:1rpx solid #eee;
+    padding:35rpx 20rpx;
+    margin-bottom:40rpx;
+}
+.wash{
+    width:660rpx;
+    height:75rpx;
+    line-height:75rpx;
+    margin:0 auto;
+    background: #ff6325;
+    border-radius:10rpx;
+    color:#fff;
+    text-align: center;
+}
+.newpic{
+    width:540rpx;
+    height:664rpx;
+}
+// .my-dongdong{
+//     width:540rpx;
+//     height:628rpx;
+//     position:fixed;
+//     z-index:20;
+//     top:200rpx;
+//     left:110rpx;
+//     border:1px solid red
+// }
+.newgroup{
+    width:540rpx;
+    height:664rpx;
+    position:fixed;
+    z-index:20;
+    top:180rpx;
+    left:130rpx;
+}
+.newgroup div{
+    position:absolute;
+    color:#fff
+}
+.tuantile{
+    top:130rpx;
+    left:76rpx;
+    font-size: 64rpx;
+    font-weight: bold;
+}
+.tuannew{
+    top:220rpx;
+    left:169rpx;
+}
+.tuanpick{
+    bottom:46rpx;
+    left:100rpx;
+    width:330rpx;
+    height:76rpx;
+    line-height:76rpx;
+    text-align:center;
+}
+.modal-goshop{
+    width:702rpx;
+    height:202rpx;
+    background:#fff;
+    position:fixed;
+    bottom:36rpx;
+    left:25rpx;
+    z-index:20;
+    border-radius:20rpx;
+    display:flex;
+    padding:40rpx 20rpx;
+    justify-content: space-between;
+    box-sizing: border-box
+}
+.showimg{
+    width:120rpx;
+    height:120rpx;
+}
+.xing{
+   width:25rpx;
+   height:24rpx; 
+   margin-right:5rpx;
+}
+.big{
+    width:128rpx;
+    height:128rpx;
+}
+.small{
+    width:32rpx;
+    height:32rpx;
+    position: absolute;
+    top:32rpx;
+    left:48rpx;
+}
+.rights .span-info{
+    position:absolute;
+    top:65rpx;
+    left:38rpx;
+    font-size: 18rpx;
+    color:#fff;
+}
+.rights{
+    position: relative;
+}
+.shopinfoflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:55%;
+}
+.shopname{
+    font-size:28rpx;
+    font-weight: bold;
+}
+.addressflex{
+    display: flex;
+    justify-content: space-between;
+}
+.time{
+    font-size:20rpx;
+    color:#fff;
+    background:#ff6325;
+    padding:5rpx 15rpx;
+    border-radius:20rpx;
+}
+.address{
+    font-size: 26rpx;
+    color:#999;
+}
+.maskshop{
+    position: fixed;
+    top:360rpx;
+    left:100rpx;
+    width:550rpx;
+    height:310rpx;
+    box-sizing: border-box;
+    z-index:60;
+    background: #fff;
+    border-radius: 25rpx;
+    justify-content: space-around;
+}
+.bottombtn{
+    border-top:1rpx solid#f5f5f5;
+    justify-content: space-around;
+    width:100%;
+    height:110rpx;
+}
+.title{
+    height:200rpx;
+    padding:50rpx;
+    font-size:30rpx;
+    font-weight: bold;
+    text-align: left;
+    box-sizing:border-box;
+}

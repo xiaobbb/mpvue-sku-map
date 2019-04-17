@@ -1,0 +1,391 @@
+.detail{
+    padding-bottom:96rpx;
+}
+.shippic{
+    width:750rpx;
+    height:750rpx;
+}
+.share{
+    width:26rpx;
+    height:28rpx;
+    margin-right:15rpx;
+}
+.shophead{
+    padding:0 20rpx 20rpx 20rpx;
+}
+.headtitle{
+    padding:10rpx 0;
+    color:#ff6325;
+}
+.headtitle span{
+    font-size:35rpx;
+    font-weight: bold;
+}
+.headinfo{
+    font-weight: bold;
+    width:75%;
+}
+.headright{
+    margin-right:-20rpx;
+    padding:5rpx 20rpx;
+    background: #ececec;
+    border-top-left-radius: 25rpx;
+    border-bottom-left-radius: 25rpx;
+}
+.headtips{
+    color:#999;
+    font-size:24rpx;
+    margin-top:10rpx;
+}
+.couponbg,.couponmenuinfo,.couponmenuinfo text{
+    width:144rpx;
+    height:40rpx;
+}
+.coupon{
+    color:#999;
+    padding:20rpx;
+}
+.couponmenu{
+    font-size: 22rpx;
+    margin-left:60rpx;
+}
+.getcon{
+    margin-right:10rpx;
+}
+.couptsild{
+    margin-top:10rpx;
+}
+.itemname{
+    color:#ff6325;
+    padding:3rpx 20rpx;
+    border-radius:25rpx;
+    margin-right:20rpx;
+    background:#fef0f0
+}
+.couponmenuinfo{
+    position: relative;
+}
+.couponmenuinfo text{
+    position: absolute;
+    top:0;
+    left:0;
+    text-align: center;
+    line-height: 40rpx;
+    display: block
+}
+.pics{
+    width:24rpx;
+    height:24rpx;
+    margin-right:10rpx;
+}
+.state{
+    padding:0 20rpx;
+}
+.statetips{
+    padding:20rpx 0;
+    border-bottom:1rpx solid #eee;
+}
+.tipname{
+    color:#999;
+    margin-right:20rpx;
+    font-size:30rpx;
+}
+.stateinfo{
+    width:85%;
+}
+.estimate{
+    padding:0 0rpx;
+}
+.estititle{
+    padding: 20rpx;
+    border-bottom:1rpx solid #eee;
+}
+.estititle p+p{
+    font-size:24rpx;
+    color:#999;
+}
+.seeall{
+    margin-right:10rpx;
+}
+.point{
+    padding:20rpx;
+    box-sizing: border-box;
+}
+.arrowback{
+    width:12rpx;
+    height:22rpx;
+    margin-left:10rpx;
+}
+.avatar{
+    width:80rpx;
+    height:80rpx;
+    margin-right:15rpx;
+}
+.left text+text{
+    font-size: 35rpx;
+    color:#ff6325;
+    margin-left:30rpx;
+}
+.userinfo{
+    margin:20rpx 0;
+}
+.carname{
+    color:#ff6325;
+    margin-left:20rpx;
+    font-size:24rpx;
+}
+.usertime{
+    color:#999;
+    margin-top:10rpx;
+    font-size: 22rpx;
+}
+.vedio{
+    width:750rpx;
+    height:418rpx;
+}
+.partinfo{
+    width:750rpx;
+    height: 1187rpx;
+}
+
+.parttitle{
+    font-weight: bold;
+    padding: 20rpx;
+}
+.bottip{
+    width:30rpx;
+    height:30rpx;
+    margin-bottom:10rpx;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    height:96rpx;
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    background:#fff;
+}
+.bot{
+    width:30%;
+    text-align:center;
+    color:#fff;
+    line-height: 96rpx;
+}
+.botcart{
+    background:#fda33a;
+}
+.botchase{
+    background: #ff6325
+}
+.bottips{
+    width:40%;
+    font-size: 22rpx;
+    color:#999;
+    box-sizing: border-box;
+    padding:0 30rpx;
+    border-top:1rpx solid #eee;
+    height: 96rpx;
+}
+.mask{
+    width:750rpx;
+    // height:800rpx;
+    position:fixed;
+    left:0;
+    bottom:0;
+    z-index:40;
+    background:#fff;
+    border-top-left-radius: 15rpx;
+    border-top-right-radius: 15rpx;
+}
+.pink,.maskcouponlist,.couponinfo{
+    width:690rpx;
+    height:161rpx;
+}
+.masktitle{
+    font-weight: bold;
+    font-size:32rpx;
+    text-align: center;
+    padding:45rpx 0;
+}
+.maskitem{
+    color:#999;
+    padding:10rpx 0;
+}
+.maskinfo{
+    padding:0 20rpx;
+}
+.maskcoupon{
+    display: inline-block;
+    color:#ff6325;
+    padding:5rpx 20rpx;
+    border-radius: 25rpx;
+    background: #fed4d4;
+    margin-right:15rpx;
+    font-size:22rpx;
+}
+.maskdetail{
+    padding-bottom:30rpx;
+}
+.maskcouponlist{
+    position: relative;
+    margin:0 auto 15rpx;
+}
+.maskser{
+    position: absolute;
+    top:0;
+    left:0;
+    padding:32rpx 30rpx 25rpx 30rpx;
+    color:#f75364;
+    width:100%;
+}
+.maskprice span,.maskget{
+    font-size:32rpx;
+}
+.maskask{
+    font-size:22rpx;
+}
+.btnget{
+    width:690rpx;
+    height:72rpx;
+    color:#fff;
+    background: #ff6325;
+    text-align: center;
+    line-height: 72rpx;
+    margin:0 auto;
+    margin-top:220rpx;
+    border-radius:50rpx;
+}
+.mask2{
+    height: 310rpx;
+}
+.friend{
+    width:89rpx;
+    height:89rpx;
+    margin-bottom:15rpx;
+}
+.maskshare{
+    padding:40rpx 0;
+    justify-content: space-around;
+}
+.cancleshare{
+    height:100rpx;
+    text-align:center;
+    line-height: 100rpx;
+    background: #ededed;
+    border-top:1rpx solid #ddd;
+}
+.pramasitem{
+    padding:20rpx;
+    border-bottom:1rpx solid #eee;
+}
+.pramasitem p:first-child{
+    width:15%;
+}
+.pramastitle{
+    width:70%;
+    color:#999;
+    font-size:24rpx;
+}
+.pramasget{
+    margin-top:100rpx;
+}
+.maskshop{
+    width:160rpx;
+    height:160rpx;
+}
+.specpic{
+    width:48rpx;
+    height:48rpx;
+}
+.menu{
+    width:55rpx;
+    height:48rpx;
+}
+.close{
+    width:28rpx;
+    height:28rpx;
+}
+.choose{
+    padding:0 20rpx;
+}
+.choosetitle{
+    padding:20rpx 0;
+    align-items: flex-start;
+}
+.chooseinfo{
+    margin-left:30rpx;
+}
+.price{
+    color:#f75364;
+    font-size:36rpx;
+}
+.tips{
+    color:#999;
+    font-size:24rpx;
+}
+.count{
+    margin-bottom:20rpx;
+}
+.spcestitle{
+    padding:20rpx 0;
+}
+.specs{
+    flex-wrap: wrap;
+    display:flex;
+    align-items:center;
+}
+.specs div{
+    font-size:24rpx;
+    // width:48%;
+    margin-top:20rpx;
+    padding:5rpx 20rpx;
+    background: #f3f3f3;
+}
+.spec{
+    border:1rpx solid #fff;
+    border-radius:10rpx;
+    background: #fff7f4;
+    margin-right:20rpx;
+}
+.specactive{
+    border:1rpx solid #ff6325;
+    border-radius:10rpx;
+    background: #fff7f4;
+}
+.choosenums{
+    border-top:1rpx solid #f4f4f4;
+    border-bottom:1rpx solid #f4f4f4;
+    margin-top:30rpx;
+    padding:30rpx 0;
+}
+.choosenums input{
+    width:68rpx;
+    height:44rpx;
+    margin:0 10rpx;
+    background: #eef2f5;
+    text-align:center;
+}
+.addcart{
+    width:690rpx;
+    height:72rpx;
+    color:#fff;
+    text-align: center;
+    margin:0 auto;
+    margin-top:100rpx;
+}
+.addcart div{
+    width:50%;
+    line-height: 72rpx;
+}
+.addconfirm{
+    background: #ff6325;
+    border-top-right-radius: 50rpx;
+    border-bottom-right-radius: 50rpx;
+}
+.addtocart{
+    background: #fda33a;
+    border-top-left-radius: 50rpx;
+    border-bottom-left-radius: 50rpx;
+}

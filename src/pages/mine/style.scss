@@ -1,0 +1,140 @@
+.avatarbg {
+    width: 750rpx;
+    height: 320rpx;
+    background: #fff9f7;
+}
+
+.avatar {
+    width: 120rpx;
+    height: 120rpx;
+    border-radius: 50%;
+}
+
+.avaitem {
+    justify-content: space-around;
+    height: 120rpx;
+}
+
+.nums {
+    color: #ff6666;
+    font-size: 30rpx;
+}
+
+.itemname {
+    color: #999;
+}
+
+.avahead {
+    height: 200rpx;
+    justify-content: flex-end;
+}
+
+.person {
+    margin-top: 10rpx;
+    font-size: 30rpx;
+}
+
+.logo4 {
+    width: 39rpx;
+    height: 38rpx;
+}
+
+.logo3 {
+    width: 46rpx;
+    height: 32rpx;
+}
+
+.logo2 {
+    width: 44rpx;
+    height: 40rpx;
+}
+
+.logo1 {
+    width: 42rpx;
+    height: 36rpx;
+}
+
+.around {
+    margin-top: 20rpx;
+    height: 144rpx;
+    padding: 0 50rpx;
+    font-size: 26rpx;
+}
+
+.around div {
+    height: 60%;
+}
+
+.around p {
+    margin-top: 10rpx;
+}
+
+.car {
+    width: 88rpx;
+    height: 88rpx;
+    margin-right: 30rpx;
+}
+
+.caritem {
+    height: 140rpx;
+    padding: 0 30rpx;
+    margin-top: 20rpx;
+}
+
+.carinfo {
+    align-items: flex-start;
+}
+
+.carinfo p+p {
+    font-size: 24rpx;
+    color: #999;
+}
+
+.minelist {
+    margin-top: 20rpx;
+}
+
+.mineitem {
+    padding: 0 30rpx;
+    height: 100rpx;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1rpx solid #f4f4f4;
+    position: relative;
+}
+
+.mineitem .btn_contact {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+}
+
+.mineitem img {
+    margin-right: 30rpx;
+}
+
+.mine1 {
+    width: 40rpx;
+    height: 34rpx;
+}
+
+.mine2 {
+    width: 40rpx;
+    height: 40rpx;
+}
+
+.mine3 {
+    width: 38rpx;
+    height: 42rpx;
+}
+
+.mine4 {
+    width: 38rpx;
+    height: 37rpx;
+}

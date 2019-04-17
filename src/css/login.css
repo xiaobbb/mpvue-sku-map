@@ -1,0 +1,113 @@
+.pl10 {
+	padding-left: 20rpx !important;
+}
+
+.pr10 {
+	padding-right: 20rpx !important;
+}
+
+.pt10 {
+	padding-top: 20rpx !important;
+}
+.pb10 {
+	padding-bottom: 20rpx !important;
+}
+.aLine a {
+	color: #505050;
+}
+
+.regLoginBox {
+	padding: 0 30rpx;
+}
+
+.logo {
+	padding: 60rpx 0 80rpx;
+}
+
+
+.logo .img img {
+	width: inherit;
+	height: 220rpx;
+	width: 230rpx;
+	margin:0 auto;
+}
+
+.from .from-line {
+	margin-bottom: 30rpx;
+	position: relative;
+}
+
+.from .ipt {
+	border: 1px solid #d9d9d9;
+	border-radius: 200rpx;
+	height: 80rpx;
+	/* width: 100%; */
+	padding: 0 20rpx 0 100rpx;
+	font-size: 30rpx;
+}
+
+.from .ipt:focus {
+	border-color: #ff5c29;
+}
+
+.from .from-line .icon {
+	height: 100%;
+	width: 120rpx;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9;
+}
+
+.from .icon_phone {
+	background: url(http://img.su-cloud.cn/qjImg/phone.png) center center no-repeat;
+	background-size: 40rpx;
+}
+
+.from .icon_pwd {
+	background: url(http://img.su-cloud.cn/qjImg/pwd.png) center center no-repeat;
+	background-size: 40rpx;
+}
+
+.from .icon_company {
+	background: url(http://img.su-cloud.cn/qjImg/conpny.png) center center no-repeat;
+	background-size: 40rpx;
+}
+
+.from .icon_name {
+	background: url(http://img.su-cloud.cn/qjImg/user.png) center center no-repeat;
+	background-size: 40rpx;
+}
+
+.from .icon_addr {
+	background: url(http://img.su-cloud.cn/qjImg/addr.png) center center no-repeat;
+	background-size: 40rpx;
+}
+
+.from .icon_code {
+	
+	background: url(http://img.su-cloud.cn/qjImg/xinxi.png) center center no-repeat;
+	background-size: 40rpx;
+}
+
+.from .from-line .getcode {
+	height: 84rpx;
+	line-height: 84rpx;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #5ad38e;
+	color: #fff;
+	padding: 0 20rpx;
+	border-radius: 0 200rpx 200rpx 0;
+	z-index: 5;
+}
+
+.from .from-txt {
+	font-size: .14rem;
+	color: #656565;
+}
+
+.from .from-txt .link {
+	color: #0bd5a9;
+}

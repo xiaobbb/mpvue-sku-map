@@ -1,0 +1,69 @@
+.shopbg{
+    width:750rpx;
+    height:610rpx;
+}
+.close{
+    width:28rpx;
+    height:28rpx;
+}
+.wx,.yuebg{
+    width:56rpx;
+    height:56rpx;
+}
+.rmb{
+    width:22rpx;
+    height:31rpx;
+    position:absolute;
+    left:15rpx;
+}
+.check{
+    width:40rpx;
+    height:40rpx;
+}
+.ordertitle{
+   position: relative;
+   padding:20rpx;
+   border-bottom:1rpx solid #eee;
+}
+.ordertitle p{
+    font-weight: bold;
+    font-size: 32rpx;
+    display: flex;
+    justify-content: center;
+}
+.ordertitle img{
+   position: absolute;
+   top:30rpx;
+   right:20rpx;
+}
+.menu{
+    display:flex;
+    font-size: 56rpx;
+    justify-content: center;
+    font-weight: bolder;
+    padding:30rpx 0 20rpx 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding:30rpx;
+}
+.flexitem{
+    display: flex;
+    align-items: center;
+}
+.flexitem span{
+    margin-left:20rpx;
+}
+.border{
+    border-top:1rpx solid #eee;
+}
+.rmbpos{
+    position: relative;
+}
+.paymenu{
+    padding-bottom:40rpx;
+}
+.pic-center{
+    top:300rpx;
+}

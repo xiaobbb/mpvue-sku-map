@@ -1,0 +1,146 @@
+.active{
+    background: #fff;
+    color:#ff6325
+}
+.active .title{
+    border-left:5rpx solid #ff6325;
+}
+.bigcontainer{
+    align-items: flex-start;
+}
+.ser-menu{
+    background:#f4f7fc;
+    font-size: 28rpx;
+    width:20%;
+}
+.nemeitem{
+    padding:30rpx 0;
+}
+.title{
+    display: inline-block;
+    text-align: center;
+    width:100%;
+}
+.citeminfo{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left:25rpx;
+    width:100%;
+}
+.carpic{
+    width:180rpx;
+    height:180rpx;
+    display:inline-block
+}
+.list{
+    width:78%;
+    padding:0 30rpx;
+}
+.itemtitle,.price{
+    font-weight:bold;
+    font-size: 28rpx;
+}
+.progress,.sales{
+    font-size: 22rpx;
+}
+.price{
+    color:#f00;
+}
+.iteminfo{
+    margin-left:25rpx;
+    align-items: flex-start;
+    height:180rpx;
+    
+}
+.progress text{
+    background:#f1f1f1;
+    padding:6rpx 10rpx;
+    color:#333333;
+    display: inline-flex;
+}
+.progress text+text{
+    margin-left:15rpx;
+}
+.sales{
+    color:#b3b3b3;
+}
+.intitem:not(:first-child){
+    margin-top:60rpx;
+}
+.btn{
+    position:fixed;
+    bottom:0;
+    left:30rpx;
+    z-index: 40;
+    width:690rpx;
+    height:88rpx;
+    
+}
+.btninfo{
+    width:100%;
+    height:88rpx;
+    line-height:88rpx;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.btn-shop{
+    background: rgba(0,0,0,.5);
+    width:75%;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 50rpx;
+    border-bottom-left-radius: 50rpx;
+    padding-left:40rpx;
+    box-sizing: border-box;
+}
+
+.btn-confirm{
+    width:35%;
+    text-align: center;
+    color:#fff;
+    background:#ff6325;
+    border-top-right-radius: 50rpx;
+    border-bottom-right-radius: 50rpx;
+}
+.cartshop,.cartshopbg{
+    width:62rpx;
+    height:50rpx;
+
+}
+.cartshopbg{
+    position:relative;
+    margin-bottom:20rpx;
+}
+.numright{
+    position: absolute;
+    line-height:28rpx;
+    height:28rpx;
+    top:5rpx;
+    right:8rpx;
+    color:#fff;
+}
+.shopprice{
+    margin-left:60rpx;
+    font-size:35rpx;
+}
+
+.tippic{
+    width:48rpx;
+    height:48rpx;
+    vertical-align: middle;
+    margin:0 15rpx;
+}
+.around{
+    width:100%;
+    justify-content: space-between;
+}
+.cartdetal{
+    width:100%;
+    justify-content: flex-start;
+}
+.nums{
+    font-size:30rpx;
+}

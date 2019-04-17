@@ -1,0 +1,48 @@
+{
+    "pages": ["pages/index/main", "pages/shopcenter/main", "pages/confirm-cart-order/main", "pages/comment-list/main", "pages/setoption/main", "pages/setpassword/main", "pages/setphone/main", "pages/installinfo/main", "pages/orderdetail/main", "pages/addcomment/main", "pages/applymoney/main", "pages/integral/main", "pages/shopcart/main", "pages/qualityQuery/main", "pages/detail/main", "pages/certical/main", "pages/confirmorder/main", "pages/visitconfirmorder/main", "pages/coupondetail/main", "pages/coupons/main", "pages/city/main", "pages/shoprank/main", "pages/shopdetail/main", "pages/mycar/main", "pages/shoplist/main", "pages/serdetail/main", "pages/choosenum/main", "pages/mycenter/main", "pages/servince/main", "pages/writeorder/main", "pages/signinfo/main", "pages/sceneplace/main", "pages/location/main", "pages/locationorder/main", "pages/orderpay/main", "pages/sitemanage/main", "pages/addnewsite/main", "pages/mine/main", "pages/moneydetail/main", "pages/message/main", "pages/messagedetail/main", "pages/myorder/main", "pages/register/main", "pages/login/main", "pages/sum/main", "pages/wallet/main", "pages/appointorderdet/main", "pages/testcode/main", "pages/addCar/main", "pages/pay/main","pages/shopcommentlist/main"],
+    "usingComponents": {
+        "van-button": "/static/vant/button/index",
+        "van-dialog": "/static/vant/dialog/index",
+        "van-field": "/static/vant/field/index",
+        "van-cell-group": "/static/vant/cell-group/index",
+        "van-area": "/static/vant/area/index",
+        "van-popup": "/static/vant/popup/index",
+        "van-switch": "/static/vant/switch/index"
+    },
+    "window": {
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "绿妞洗车",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
+    },
+    "tabBar": {
+        "backgroundColor": "#fffff",
+        "borderStyle": "white",
+        "selectedColor": "#ff6325",
+        "color": "#fff",
+        "list": [{
+                "pagePath": "pages/index/main",
+                "iconPath": "static/images/footer/home1.png",
+                "selectedIconPath": "static/images/footer/home2.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/shopcenter/main",
+                "iconPath": "static/images/footer/shop1.png",
+                "selectedIconPath": "static/images/footer/shop2.png",
+                "text": "商城"
+            },
+            {
+                "pagePath": "pages/mine/main",
+                "iconPath": "static/images/footer/my1.png",
+                "selectedIconPath": "static/images/footer/my2.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "permission": {
+        "scope.userLocation": {
+            "desc": "你的位置信息将用于小程序位置接口的效果展示"
+        }
+    }
+}

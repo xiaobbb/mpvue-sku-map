@@ -1,0 +1,178 @@
+.shopmian{
+    margin-top:20rpx;
+}
+.title{
+    justify-content: space-around;
+    padding:20rpx 0;
+    border-bottom: 1rpx solid #f4f4f4;
+}
+.active{
+    font-weight:bold;
+}
+.sershow{
+    padding:0 20rpx;
+}
+.caritem text{
+    display: inline-block;
+    color:#999;
+    margin-right:60rpx;
+    font-size:24rpx;
+}
+.activecolor{
+    border-bottom:1rpx solid #ff6325;
+    color:#ff6325 !important;
+}
+.caritem{
+    margin:10rpx 0;
+}
+.ships{
+    background: #f3f8f4;
+    font-size: 22rpx;
+    color:#ff6325;
+    padding:5rpx 0;
+}
+.smallcar{
+    width:160rpx;
+    height:160rpx;
+}
+.col{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left:20rpx;
+    width:70%;
+}
+.seritem{
+    padding:20rpx 10rpx;
+    width:100%;
+    height:100%;
+}
+.infoitem{
+    color:#999;
+    margin:5rpx 0 10rpx 0;
+    font-size:22rpx;
+    height:80rpx;
+    overflow: hidden;
+}
+.infotitle{
+    font-weight: bold;
+}
+.serprice{
+    display: flex;
+    align-items: center;
+}
+.serprice text:first-child{
+    color:rgb(241, 75, 75)
+}
+.serprice text+text{
+    font-size:22rpx;
+    color:#999;
+    margin-left:10rpx;
+}
+.pay{
+    background: #ff6325;
+    padding:8rpx 35rpx;
+    border-radius: 25rpx;
+    color:#fff;
+    font-size:22rpx;
+}
+.mealbg,.mealitem{
+    width:690rpx;
+    height:377rpx;
+    margin:0 auto;
+}
+.meallist{
+    padding:15rpx;
+    margin-top:25rpx;
+    border-top:1px solid #eee;
+}
+.mealitem{
+    position: relative;
+    margin-top:20rpx;
+}
+.mealinfo{
+    position:absolute;
+    top:0;
+    left:0;
+    padding:48rpx 30rpx 38rpx 30rpx;
+}
+.linehr{
+    border-bottom:0.5rpx dashed #e9a79f;
+    margin:49rpx 0 39rpx 0;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.weight{
+    font-weight: bold
+}
+.sizebig{
+    font-size: 30rpx;
+}
+.smallsize{
+    font-size:24rpx;
+    margin:22rpx 0 30rpx 0;
+}
+.explain{
+    font-size:22rpx;
+    color:#999;
+}
+.mealprice{
+    color:rgb(241, 75, 75)
+}
+.mealprice text+text{
+    font-size:32rpx;
+}
+.mealpay{
+    background: #ff6325;
+    padding:10rpx;
+    border-radius: 10rpx;
+    color:#fff;
+}
+.grad{
+    margin-left:10rpx;
+    font-size:28rpx;
+}
+.head{
+    margin-top:20rpx;
+    padding:30rpx 0;
+    flex-direction: column;
+}
+.bigs{
+    width:28rpx;
+    height:27rpx;
+}
+.main{
+    font-weight: bold;
+    font-size: 30rpx;
+}
+.shot{
+    width:60rpx;
+    margin:0 30rpx;
+    border:1px solid #eee;
+}
+.titleline{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:10rpx;
+}
+.pointmenu{
+    padding:20rpx;
+    border:1rpx solid #eee;
+    color:#999;
+}
+.active3{
+    color:#ff6325
+}
+.callback{
+    background: #fef4f0;
+    color:#7c726e;
+    padding:20rpx;
+    margin:0 20rpx 20rpx 20rpx;
+    border-radius:10rpx;
+}
+.pointsheet>div{
+    border-bottom: 1rpx solid #eee;
+}

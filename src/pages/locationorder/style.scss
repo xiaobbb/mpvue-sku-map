@@ -1,0 +1,41 @@
+.shopbg{
+    width:750rpx;
+    height:516rpx;
+}
+.item{
+    position: relative;
+    padding:25rpx 20rpx;
+    margin-bottom:0rpx;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iteminfo{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left:10rpx;
+}
+.sub{
+    color:#999;
+    font-size: 22rpx;
+}
+.location-self{
+    font-size:28rpx;
+    display: inline-flex;
+    align-items: center;
+}
+.choose{
+    width:30rpx;
+    height:30rpx;
+    opacity:0;
+}
+.active{
+    opacity:1;
+}
+.list{
+    padding-bottom:30rpx;
+}
+  
+  

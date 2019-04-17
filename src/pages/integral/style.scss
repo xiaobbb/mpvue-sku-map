@@ -1,0 +1,47 @@
+.orange {
+    width: 750rpx;
+    height: 268rpx;
+    justify-content: center;
+    background: #ff814f;
+    color: #fff;
+}
+
+.score {
+    font-size: 64rpx;
+}
+
+.scorerecord {
+    padding: 20rpx 30rpx;
+}
+
+.scorerecord text {
+    border-left: 5rpx solid #ff814f;
+    padding-left: 10rpx;
+    font-size: 30rpx;
+}
+
+.scorelist {
+    padding: 20rpx 80rpx;
+}
+
+.scoreitem {
+    padding: 20rpx 0;
+    border-bottom: 1rpx solid #f4f4f4;
+}
+
+.iteminfo {
+    align-items: flex-start
+}
+
+.iteminfo p+p {
+    color: #999;
+    font-size: 24rpx;
+}
+
+.itembig {
+    font-size: 32rpx;
+}
+
+.active {
+    color: #ff6325;
+}

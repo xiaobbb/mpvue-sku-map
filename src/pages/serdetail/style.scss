@@ -1,0 +1,164 @@
+.bg{
+    width:750rpx;
+    height:400rpx;
+}
+.hr{
+    width:700rpx;
+    height:3rpx;
+    background:#ddd;
+    margin:0 auto;
+}
+.item{
+    padding:25rpx;
+}
+.item .title{
+    font-size: 30rpx;
+    font-weight: bold;
+}
+.complain{
+    margin:20rpx 0;
+    color:#333;
+    font-size:26rpx;
+}
+.iteminfo{
+    justify-content: flex-start;
+    font-size:24rpx;
+    color:#999;
+}
+.iteminfo p+p{
+    margin-left:50rpx;
+}
+.iteminfo span{
+    color:rgb(245, 91, 91);
+}
+.seritem{
+    font-size: 28rpx;
+}
+.sertitle{
+    font-size: 28rpx;
+    font-weight: bold;
+    height:28rpx;
+}
+.sercomplain{
+    margin:25rpx 0;
+    color:#333;
+    font-weight:500;
+    font-size:24rpx;
+    height:24rpx;
+}
+.pics{
+    width:24rpx;
+    height:24rpx;
+    vertical-align: middle;
+    margin-right:10rpx;
+}
+.price{
+    color:rgb(245, 74, 74);
+    font-weight: bold;
+    font-size:35rpx;
+}
+.big{
+    width:48rpx;
+    height:48rpx;
+}
+.small{
+    width:24rpx;
+    height:24rpx;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%)
+}
+.location{
+    position: relative;
+    width:48rpx;
+    height:48rpx;
+}
+.range{
+    flex-direction: column;
+    color:#999;
+}
+.point{
+    padding:20rpx;
+    border-bottom:1rpx solid #eee;
+    box-sizing: border-box;
+}
+.arrowback{
+    width:12rpx;
+    height:22rpx;
+    margin-left:10rpx;
+}
+.avatar{
+    width:80rpx;
+    height:80rpx;
+    margin-right:15rpx;
+}
+.left text+text{
+    font-size: 35rpx;
+    color:#ff6325;
+    margin-left:30rpx;
+}
+.userinfo{
+    margin:20rpx 0;
+}
+.carname{
+    color:#ff6325;
+}
+.usertime{
+    color:#999;
+    margin-top:10rpx;
+}
+.tippic{
+    width:26rpx;
+    height:26rpx;
+    margin-right:10rpx;
+    margin-top: 5rpx;
+}
+.main{
+    font-weight: bold;
+}
+.pointnow{
+    height:250rpx;
+}
+.pmenu p{
+    font-size:24rpx;
+}
+.carcor{
+    color:#999;
+}
+.fsize{
+    font-weight:bold;
+    color:#333
+}
+.pmenu{
+    margin:20rpx 0;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size:24rpx;
+}
+.btn{
+    position:fixed;
+    width:100%;
+    bottom:0;
+    height:90rpx;
+    display: flex;
+    justify-content: space-between;
+    line-height: 90rpx;
+    z-index:99
+}
+.btnmoney{
+    color:rgb(243, 70, 70);
+    font-size: 32rpx;
+    padding-left: 20rpx;
+    border-top:1rpx solid #eee;
+    box-sizing: border-box;
+    width:70%;
+    background: #fff;
+}
+.btncharge{
+    background: #ff6325;
+    color:#fff;
+    width:30%;
+    text-align:center;
+}

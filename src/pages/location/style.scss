@@ -1,0 +1,76 @@
+
+.item{
+    position: relative;
+    padding:25rpx 20rpx;
+    margin-bottom:0rpx;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.location-self{
+    margin-left:10rpx;
+    font-size:28rpx;
+    display: inline-flex;
+    align-items: center;
+}
+.location-self input{
+   font-size:24rpx;
+   border:0;
+   outline: none;
+   margin-left:30rpx;
+}
+.hr{
+    width:750rpx;
+    height:3rpx;
+    margin-left:45rpx;
+    background:#eee;
+}
+.sign{
+    display: flex;
+    justify-content: space-around;
+}
+.sign span{
+    width:50%;
+    color:#ccc;
+    text-align: center;
+}
+.sign span:first-child{
+    border-right:1rpx solid #ccc;
+}
+.chase{
+    width:660rpx;
+    height:90rpx;
+    margin:0 auto;
+    background: #ff6325;
+    border-radius:10rpx;
+    line-height:96rpx;
+    text-align: center;
+    color:#fff;
+  }
+  .list{
+      padding-bottom:30rpx;
+  }
+  .tag{
+      width:144rpx;
+      height:40rpx;
+      vertical-align: center;
+  }
+  .yuan{
+      width:8rpx;
+      height:8rpx;
+      position:absolute;
+      top:18rpx;
+      left:20rpx;
+  }
+  .taginfo{
+      display: inline;
+      position:relative;
+      margin-left:380rpx;
+  }
+  .goods{
+    font-size:20rpx;
+    color: #fff;
+    position: absolute;
+    bottom:15rpx;
+    right:10rpx;
+  }

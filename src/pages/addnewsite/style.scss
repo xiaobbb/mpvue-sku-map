@@ -1,0 +1,53 @@
+.setitem{
+    padding:30rpx;
+    border-bottom:1px solid #f4f4f4;
+    align-items: flex-start;
+}
+.setitem input,.input{
+    width:80%;
+}
+.checkstyle{
+    width:99rpx;
+    height:55rpx;
+}
+.setbtn{
+    margin-top:82rpx;
+}
+.mask{
+    width:750rpx;
+    height:790rpx;
+    z-index:60;
+    position: fixed;
+    bottom:0;
+    left:0rpx;
+    border-top-left-radius: 15rpx;
+    border-top-right-radius: 15rpx;
+}
+.masktitle{
+    text-align: center;
+    width:100%;
+    padding:30rpx;
+    font-size:32rpx;
+    font-weight: bold;
+}
+.province{
+    display: flex;
+    justify-content: flex-start;
+    width:100%;
+    border-top:1rpx solid #f4f4f4;
+    border-bottom:1rpx solid #f4f4f4;
+}
+.province p{
+    padding:20rpx 30rpx;
+    font-weight: bold;
+}
+.active{
+    border-bottom:1rpx solid #89674c;
+    color: #89674c;
+}
+.arrlist{
+    width:100%;
+}
+.arrlist p{
+    padding:20rpx 30rpx
+}

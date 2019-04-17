@@ -1,0 +1,97 @@
+.active{
+    background: #fff;
+    color:#ff6325
+}
+.active .title{
+    border-left:5rpx solid #ff6325;
+}
+.bigcontainer{
+    align-items: flex-start;
+}
+.ser-menu{
+    background:#f4f7fc;
+    font-size: 28rpx;
+    width:20%;
+}
+.nemeitem{
+    padding:20rpx 0;
+}
+.title{
+    display: inline-block;
+    text-align: center;
+    width:100%;
+}
+.carpic{
+    width:180rpx;
+    height:180rpx;
+}
+.list{
+    width:78%;
+    padding:0 20rpx;
+}
+.itemtitle,.price{
+    font-weight:bold;
+    font-size: 28rpx;
+}
+.progress,.sales{
+    font-size: 22rpx;
+}
+.price{
+    color:#f00;
+}
+.iteminfo{
+    margin-left:25rpx;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+.progress{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap:wrap;
+    margin-bottom:10rpx;
+    width:100%;
+}
+.progress text{
+    background:#f1f1f1;
+    padding:5rpx 8rpx;
+    color:#333333;
+}
+
+.sales{
+    color:#b3b3b3;
+}
+.intitem:not(:first-child){
+    margin-top:60rpx;
+}
+.btn{
+    position:fixed;
+    bottom:0;
+    left:0;
+    z-index: 10;
+    width:100%;
+}
+.btn div{
+    display: inline-block;
+    width:50%;
+    box-sizing: border-box;
+    height:89rpx;
+    font-size: 32rpx;
+    line-height:89rpx;
+}
+.btn-close input{
+    display: inline-block;
+    margin-right:10rpx;
+}
+.btn-close text{
+    vertical-align: middle
+}
+.btn-close{
+    border-top:1rpx solid #eee;
+    padding-left:30rpx;
+}
+.btn-confirm{
+    text-align: center;
+    color:#fff;
+    background:#ff6325;
+}

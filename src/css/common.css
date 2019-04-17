@@ -1,0 +1,214 @@
+.mask-modal{
+    position: fixed;
+    width: 100%;
+    height:100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 20;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+  }
+  /*点点的样式*/
+.diandian{
+  width:12rpx;
+  height:12rpx;
+}
+ /*右边按钮的样式*/
+ .back{
+   width:12rpx;
+   height:22rpx;
+   position:absolute;
+   right:20rpx;
+   top:35rpx;
+ }
+ /*item箭头样式*/
+ .line{
+  position: relative;
+  border-bottom:1rpx solid #eee;
+  padding:20rpx 20rpx;
+  margin-bottom:35rpx;
+}
+/*立即下单的按钮样式*/
+.paybtn{
+  width:660rpx;
+  height:90rpx;
+  margin:0 auto;
+  background: #ff6325;
+  border-radius:10rpx;
+  line-height:90rpx;
+  color:#fff;
+  text-align: center;
+}
+/*定位图标基本样式*/
+.location-logo{
+    position:absolute;
+    width:64rpx;
+    height:64rpx;
+    bottom:50rpx;
+    left:20rpx
+}
+/*相对定位*/
+.glo-relative{
+  position:relative
+}
+/*小车子的定位*/
+.cart-img{
+  position:absolute;
+  bottom:50rpx;
+  left:358rpx;
+  width:48rpx;
+  height:55rpx;
+}
+/*chenckbox样式*/
+.check{
+  width:40rpx;
+  height:40rpx;
+}
+/*弹性布局*/
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.clomn{
+  flex-direction: column;
+}
+/*复选框清除默认样式*/
+.checkbox-cart .wx-checkbox-input{
+  width:40rpx;
+  height:40rpx;
+  border-radius: 50%!important;
+}
+.checkbox-cart .wx-checkbox-input.wx-checkbox-input-checked{
+  background: #ff6325;
+  border-radius: 50%!important;
+  border:0!important;
+  width:45rpx;
+  height:45rpx;
+}
+.checkbox-cart .wx-checkbox-input.wx-checkbox-input-checked::before{
+  width:42rpx;
+  height:42rpx;
+  border-radius: 50%!important;
+  line-height: 42rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: #ffffff;
+  background: transparent;
+  transform: translate(-50%, -50%) scale(1);
+  -webkit-transform: translate(-50%, -50%) scale(1);
+}
+/*单选按钮清除默认样式*/
+radio .wx-radio-input{ 
+  /* 自定义样式.... */
+    height: 40rpx; 
+    width: 40rpx;
+    border-radius: 50%;
+    border: 2rpx solid #999;
+    background: transparent;
+ }
+ 
+/* 选中后的 背景样式 （红色背景 无边框 可根据UI需求自己修改） */
+radio .wx-radio-input.wx-radio-input-checked{
+   border: none;
+   background: #ff6325;
+}
+/* 选中后的 对勾样式 （白色对勾 可根据UI需求自己修改） */
+radio .wx-radio-input.wx-radio-input-checked::before{
+   border-radius: 50%;/* 圆角 */
+   width: 45rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+   height: 45rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+   line-height: 45rpx;
+   text-align: center;
+   font-size:30rpx; /* 对勾大小 30rpx */
+   color:#fff; /* 对勾颜色 白色 */
+   background: #ff6325;
+   transform:translate(-50%, -50%) scale(1);
+   -webkit-transform:translate(-50%, -50%) scale(1);
+}
+/*清除input默认样式*/
+input[type=text]{
+ outline:none;
+ border:0;
+ font-size:25rpx;
+}
+/*12rpx灰色块*/
+.slide{
+  width:750rpx;
+  height:20rpx;
+  background:#f4f7fc;
+}
+/*评论星星样式*/
+.xing-point{
+  width:25rpx;
+  height:24rpx;
+  margin-right:5rpx;
+}
+/*绝对定位居中显示*/
+.absolu{
+  position: absolute;
+  top:50%;
+}
+/*白色背景*/
+.white{
+  background: #fff
+}
+/*灰色背景*/
+.backgray{
+  background:#f4f7fc;
+  height:100%;
+}
+/*列表汽车样式*/
+.mycar{
+  width:160rpx;
+  height:160rpx;
+}
+/*右侧箭头*/
+.right{
+  width:12rpx;
+  height:22rpx;
+}
+/*左侧箭头*/
+.leftarrow{
+  width:12rpx;
+  height:22rpx;
+  vertical-align: middle;
+}
+/*图片对齐*/
+img{
+  vertical-align: middle
+}
+/*padding 20 30*/
+.commonpad{
+  padding:20rpx 30rpx
+}
+
+.van-textarea-min-height{
+  /* min-height:0!important; */
+}
+
+.backgray .van-cell{
+  padding:15px!important;
+}
+.color333{
+  color:#333!important;
+}
+.textoverflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+/*2行溢出*/
+
+.text-line2 {
+  display: -webkit-box!important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}

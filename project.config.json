@@ -1,0 +1,391 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true
+	},
+	"miniprogramRoot": "dist/wx/",
+	"compileType": "miniprogram",
+	"appid": "wx73dbae1cbf851757",
+	"projectname": "my-project",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 11,
+			"list": [
+				{
+					"id": 0,
+					"name": "填写订单1",
+					"pathName": "pages/location/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "填写订单2",
+					"pathName": "pages/locationcomplete/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "位置",
+					"pathName": "pages/locationorder/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "支付订单",
+					"pathName": "pages/orderpay/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "添加现场图片",
+					"pathName": "pages/sceneplace/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "添加备注",
+					"pathName": "pages/signinfo/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "填写订单选择时间",
+					"pathName": "pages/writeorder/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 7,
+					"name": "服务项目",
+					"pathName": "pages/servince/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 8,
+					"name": "车辆信息",
+					"pathName": "pages/mycar/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "信息",
+					"pathName": "pages/mycenter/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "选择车牌",
+					"pathName": "pages/choosenum/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 11,
+					"name": "服务详情",
+					"pathName": "pages/serdetail/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "商户列表",
+					"pathName": "pages/shoplist/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "选择城市",
+					"pathName": "pages/city/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "商户详情",
+					"pathName": "pages/shopdetail/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "商城",
+					"pathName": "pages/shopcenter/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 16,
+					"name": "门店排行榜",
+					"pathName": "pages/shoprank/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 17,
+					"name": "服务卡券",
+					"pathName": "pages/certical/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 18,
+					"name": "优惠券",
+					"pathName": "pages/coupons/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "清洗卡套餐",
+					"pathName": "pages/coupondetail/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 20,
+					"name": "商城确认订单",
+					"pathName": "pages/confirmorder/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 21,
+					"name": "产品详情",
+					"pathName": "pages/detail/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "防保质量查询",
+					"pathName": "pages/qualityQuery/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 23,
+					"name": "购物车",
+					"pathName": "pages/shopcart/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 24,
+					"name": "我的积分",
+					"pathName": "pages/integral/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 25,
+					"name": "发表评论",
+					"pathName": "pages/addcomment/main",
+					"query": "orderNo=201904111016183668853&appraiseType=0&appraiseId=1120",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "订单详情",
+					"pathName": "pages/orderdetail/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "申请退款",
+					"pathName": "pages/applymoney/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 28,
+					"name": "设置",
+					"pathName": "pages/installinfo/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "设置手机号码",
+					"pathName": "pages/setphone/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "设置支付密码",
+					"pathName": "pages/setpassword/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 32,
+					"name": "设置意见反馈",
+					"pathName": "pages/setoption/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "上门订单申请退款",
+					"pathName": "pages/refound/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 33,
+					"name": "地址管理",
+					"pathName": "pages/sitemanage/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "添加新地址",
+					"pathName": "pages/addnewsite/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/mine/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 36,
+					"name": "我的订单",
+					"pathName": "pages/myorder/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 37,
+					"name": "我的钱包",
+					"pathName": "pages/wallet/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 38,
+					"name": "余额充值",
+					"pathName": "pages/sum/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 39,
+					"name": "资金明细",
+					"pathName": "pages/moneydetail/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的消息",
+					"pathName": "pages/message/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的消息详情",
+					"pathName": "pages/messagedetail/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 43,
+					"name": "预约订单详情",
+					"pathName": "pages/appointorderdet/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "到店确认订单",
+					"pathName": "pages/visitconfirmorder/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "登录",
+					"pathName": "pages/login/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "注册",
+					"pathName": "pages/register/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "测试代码",
+					"pathName": "pages/testcode/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "新增车辆信息",
+					"pathName": "pages/addCar/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "支付",
+					"pathName": "pages/pay/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "全部评论",
+					"pathName": "pages/shopcommentlist/main",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}
